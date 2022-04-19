@@ -1,0 +1,1176 @@
+//By Lucky
+//NeverloseUID:DevilBox
+//QQ:283860302
+//Discord:#4202
+
+{
+
+"Menu.Switch":{
+	"prefix": "NL.Switch",
+	"body": [
+		"Menu.Switch(\"${1:Name}\",\"${2:Name}\",false,\"${3:Tooltip}\");"
+	],
+	"description": ""
+},
+"Menu.SwitchColor":{
+	"prefix": "NL.SwitchColor",
+	"body": [
+		"Menu.SwitchColor(\"${1:Name}\",\"${2:Name}\",false,Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
+	],
+},
+"Menu.SliderInt":{
+	"prefix": "NL.SliderInt",
+	"body": [
+		"Menu.SliderInt(\"${1:Name}\",\"${2:Name}\",50, 0, 100,\"${3:Tooltip}\");"
+	],
+},
+"Menu.SliderIntColor":{
+	"prefix": "NL.SliderIntColor",
+	"body": [
+		"Menu.SliderIntColor(\"${1:Name}\",\"${2:Name}\",50, 0, 100, Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
+	],
+	"description": ""
+},
+"Menu.SliderFloat":{
+	"prefix": "NL.SliderFloat",
+	"body": [
+		"Menu.SliderFloat(\"${1:Name}\",\"${2:Name}\",50.0, 0.0, 100.0,\"${3:Tooltip}\");"
+	],
+},
+"Menu.SliderFloatColor":{
+	"prefix": "NL.SliderFloatColor",
+	"body": [
+		"Menu.SliderFloatColor(\"${1:Name}\",\"${2:Name}\",50.0, 0.0, 100.0, Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
+	],
+},
+"Menu.Combo":{
+	"prefix": "NL.Combo",
+	"body": [
+		"Menu.Combo(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"},0,\"${6:Tooltip}\");"
+	],
+},
+"Menu.ComboColor":{
+	"prefix": "NL.ComboColor",
+	"body": [
+		"Menu.Switch(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"},0,Color.new(1.0, 1.0, 1.0, 1.0),\"${6:Tooltip}\");"
+	],
+},
+"Menu.MultiCombo":{
+	"prefix": "NL.MultiCombo",
+	"body": [
+		"Menu.MultiCombo(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"}, 0,\"${6:Tooltip}\");"
+	],
+},
+"Menu.TextBox":{
+	"prefix": "NL.TextBox",
+	"body": [
+		"Menu.TextBox(\"${1:Name}\",\"${2:Name}\",64, \"Value\",\"${3:Tooltip}\");"
+	],
+},
+"Menu.Text":{
+	"prefix": "NL.Text",
+	"body": [
+		"Menu.Text(\"${1:Name}\",\"${2:Name}\");"
+	],
+},
+"Menu.Button":{
+	"prefix": "NL.Button",
+	"body": [
+		"Menu.Button(\"${1:Name}\",\"${2:Name}\",\"${3:Tooltip}\");"
+	],
+},
+"Menu.ColorEdit":{
+	"prefix": "NL.ColorEdit",
+	"body": [
+		"Menu.ColorEdit(\"${1:Name}\",\"${2:Name}\",Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
+	],
+},
+"Menu.Hotkey":{
+	"prefix": "NL.Hotkey",
+	"body": [
+		"Menu.Hotkey(\"${1:Name}\",\"${2:Name}\",0x45,\"${3:Tooltip}\");"
+	],
+},
+"Menu.GetRageHitboxState":{
+	"prefix": "NL.GetRageHitboxState",
+	"body": [
+		"Menu.GetRageHitboxState(${1:hitbox_int});"
+	],
+},
+"Menu.SetRageHitboxState":{
+	"prefix": "NL.SetRageHitboxState",
+	"body": [
+		"Menu.SetRageHitboxState(${1:hitbox_int},${2:bool});"
+	],
+},
+"Menu.SetRageMultipointState":{
+	"prefix": "NL.SetRageMultipointState",
+	"body": [
+		"Menu.SetRageMultipointState(${1:hitbox_int},${2:bool});"
+	],
+},
+"Menu.SetLegitHitboxState":{
+	"prefix": "NL.SetLegitHitboxState",
+	"body": [
+		"Menu.SetLegitHitboxState(${1:hitbox_int},${2:bool});"
+	],
+},
+"Menu.GetRageMultipointState":{
+	"prefix": "NL.GetRageMultipointState",
+	"body": [
+		"Menu.GetRageMultipointState(${1:hitbox_int});"
+	],
+},
+"Menu.DestroyItem":{
+	"prefix": "NL.DestroyItem",
+	"body": [
+		"Menu.DestroyItem(${1:name});"
+	],
+},
+
+"NL.bind:GetName()":{
+	"prefix": ":GetName()",
+	"body": [
+		":GetName()"
+	],
+},
+"NL.bind:IsActive()":{
+	"prefix": ":IsActive()",
+	"body": [
+		":IsActive()"
+	],
+},
+"NL.bind:GetKey()":{
+	"prefix": ":GetKey()",
+	"body": [
+		":GetKey()"
+	],
+},
+"NL.bind:GetValue()":{
+	"prefix": ":GetValue()",
+	"body": [
+		":GetValue()"
+	],
+},
+"NL.bind:GetMode()":{
+	"prefix": ":GetMode()",
+	"body": [
+		":GetMode()"
+	],
+},
+"NL.var:Get()":{
+	"prefix": ":Get()",
+	"body": [
+		":Get()"
+	],
+},
+"NL.var:Set()":{
+	"prefix": ":Set()",
+	"body": [
+		":Set()"
+	],
+},
+"NL.bind:GetBool()":{
+	"prefix": ":GetBool()",
+	"body": [
+		":GetBool()"
+	],
+},
+"NL.var:GetColor()":{
+	"prefix": ":GetColor()",
+	"body": [
+		":GetColor()"
+	],
+},
+"NL.var:SetColor()":{
+	"prefix": ":SetColor()",
+	"body": [
+		":SetColor()"
+	],
+},
+"NL.var:RegisterCallback()":{
+	"prefix": "RegisterCallback()",
+	"body": [
+		"RegisterCallback()"
+	],
+},
+"NL.var:SetVisible()":{
+	"prefix": ":SetVisible()",
+	"body": [
+		":SetVisible(${1:bool})"
+	],
+},
+"NL.name:SetTooltip()":{
+	"prefix": ":SetTooltip()",
+	"body": [
+		":SetTooltip(${1:name})"
+	],
+},
+"NL.name:UpdateList()":{
+	"prefix": ":UpdateList()",
+	"body": [
+		":UpdateList({\"${1:el1}\", \"${2:el2}\"})"
+	],
+},
+"NL.name:GetList()":{
+	"prefix": ":GetList()",
+	"body": [
+		":GetList()"
+	],
+},
+"NL.OverrideInverter":{
+	"prefix": "NL.AntiAim.OverrideInverter()",
+	"body": [
+		"AntiAim.OverrideInverter(${1:false})"
+	],
+	
+},
+"NL.OverrideYawOffset":{
+	"prefix": "NL.AntiAim.OverrideYawOffset()",
+	"body": [
+		"AntiAim.OverrideYawOffset(${1:90})"
+	],
+	"description": "A new yaw offset value (-180 - 180)"
+	
+},
+"NL.OverrideLimit":{
+	"prefix": "NL.AntiAim.OverrideLimit()",
+	"body": [
+		"AntiAim.OverrideLimit(${1:30})"
+	],
+	"description": "A new desync limit value (0 - 50)"
+	
+},
+"NL.OverrideLBYOffset":{
+	"prefix": "NL.AntiAim.OverrideLBYOffset()",
+	"body": [
+		"AntiAim.OverrideLBYOffset(${1:58})"
+	],
+	"description": "A new lby offset value (-58 - 58)"
+	
+},
+"NL.OverridePitch":{
+	"prefix": "NL.AntiAim.OverridePitch()",
+	"body": [
+		"AntiAim.OverridePitch(${1:90})"
+	],
+	"description": "A new pitch value"
+	
+},
+"NL.GetInverterState":{
+	"prefix": "NL.AntiAim.GetInverterState()",
+	"body": [
+		"AntiAim.GetInverterState()"
+	],
+	"description": "Current inverter state"
+	
+},
+"NL.GetMinDesyncDelta":{
+	"prefix": "NL.AntiAim.GetMinDesyncDelta()",
+	"body": [
+		"AntiAim.GetMinDesyncDelta()"
+	],
+	"description": "Minimal desync delta (float)"
+	
+},
+"NL.GetMaxDesyncDelta":{
+	"prefix": "NL.AntiAim.GetMaxDesyncDelta()",
+	"body": [
+		"AntiAim.GetMaxDesyncDelta()"
+	],
+	"description": "Max desync delta (float)"
+	
+},
+"NL.GetFakeRotation":{
+	"prefix": "NL.AntiAim.GetFakeRotation()",
+	"body": [
+		"AntiAim.GetFakeRotation()"
+	],
+	"description": "Fake rotation (float)"
+	
+},
+"NL.OverrideDesyncOnShot":{
+	"prefix": "NL.AntiAim.OverrideDesyncOnShot()",
+	"body": [
+		"AntiAim.OverrideDesyncOnShot(4)"
+	],
+	"description": "0 - disable override, 1 - left, 2 - right, 3 - overlap on shot with fake, 4 - opposite to fake"
+	
+},
+"NL.GetCurrentRealRotation":{
+	"prefix": "NL.AntiAim.GetCurrentRealRotation()",
+	"body": [
+		"AntiAim.GetCurrentRealRotation(4)"
+	],
+	"description": "Real rotation(float)"
+	
+},
+"NL.Exploits.AllowCharge(false)":{
+	"prefix": "NL.Exploits.AllowCharge(false)",
+	"body": [
+		"Exploits.AllowCharge(false)"
+	],
+	"description": "true - block charge, false - allow charge"
+	
+},
+"NL.Exploits.GetCharge()":{
+	"prefix": "NL.Exploits.GetCharge()",
+	"body": [
+		"Exploits.GetCharge()"
+	],
+	"description": "Charge fraction(float)"
+	
+},
+"NL.Exploits.ForceTeleport()":{
+	"prefix": "NL.Exploits.ForceTeleport()",
+	"body": [
+		"Exploits.ForceTeleport()"
+	],
+	"description": "Teleports local player if doubletap is charged"
+	
+},
+"NL.Exploits.ForceCharge()":{
+	"prefix": "NL.Exploits.ForceCharge()",
+	"body": [
+		"Exploits.ForceCharge()"
+	],
+	"description": "Force doubletap to charge"
+	
+},
+"NL.OverrideDoubleTapSpeed":{
+	"prefix": "NL.Exploits.OverrideDoubleTapSpeed(13)",
+	"body": [
+		"Exploits.OverrideDoubleTapSpeed(13)"
+	],
+	"description": "How many ticks doubletap will speed up  (int)  -- Default value(13)"
+	
+},
+"NL.FakeLag.Choking()":{
+	"prefix": "NL.FakeLag.Choking()",
+	"body": [
+		"FakeLag.Choking()"
+	],
+	"description": "Return Is chocking packet"
+	
+},
+"NL.FakeLag.SentPackets()":{
+	"prefix": "NL.FakeLag.SentPackets()",
+	"body": [
+		"FakeLag.SentPackets()"
+	],
+	"description": "Return How many packets sent in row"
+	
+},
+"NL.FakeLag.SetState()":{
+	"prefix": "NL.FakeLag.SetState()",
+	"body": [
+		"FakeLag.SetState(false)"
+	],
+	"description": "Set packet state False - choke packet True - send packet"
+	
+},
+"NL.draw":{
+	"prefix": "NL.Cheat.RegisterCallback(draw)",
+	"body": [
+		"Cheat.RegisterCallback(\"draw\", function() end)"
+	],
+	"description": "This callback will be executed in game thread, it allows you do draw any primitives and has safe access to any game functions"
+	
+},
+"NL.pre_prediction":{
+	"prefix": "NL.Cheat.RegisterCallback(pre_prediction)",
+	"body": [
+		"Cheat.RegisterCallback(\"pre_prediction\", function(cmd) end)"
+	],
+	"description": "CreateMove callback before cheat prediction, if you need to modify something before prediction and/or ragebot/antiaims/etc, you can do it there"
+	
+},
+
+"NL.prediction":{
+	"prefix": "NL.Cheat.RegisterCallback(prediction)",
+	"body": [
+		"Cheat.RegisterCallback(\"prediction\", function(cmd) end)"
+	],
+	"description": ""
+	
+},
+"NL.createmove":{
+	"prefix": "NL.Cheat.RegisterCallback(createmove)",
+	"body": [
+		"Cheat.RegisterCallback(\"createmove\", function(cmd) end)"
+	],
+	"description": ""
+	
+},
+"NL.events":{
+	"prefix": "NL.Cheat.RegisterCallback(events)",
+	"body": [
+		"Cheat.RegisterCallback(\"events\", function(event) end)"
+	],
+	"description": ""
+	
+},
+"NL.destroy":{
+	"prefix": "NL.Cheat.RegisterCallback(destroy)",
+	"body": [
+		"Cheat.RegisterCallback(\"destroy\", function() end)"
+	],
+	"description": "This callback will be called before script unload, so you can revert changes inside this callback"
+	
+},
+"NL.frame_stage":{
+	"prefix": "NL.(frame_stage)",
+	"body": [
+		"Cheat.RegisterCallback(\"frame_stage\", function() end)"
+	],
+	"description": "This callback will be executed on every frame stage."
+	
+},
+"NL.console":{
+	"prefix": "NL.Cheat.RegisterCallback(console)",
+	"body": [
+		"Cheat.RegisterCallback(\"console\", function(text) end)"
+	],
+	"description": "This callback will be executed whenever the user enters something into the console"
+	
+},
+"NL.registered_shot":{
+	"prefix": "NL.Cheat.RegisterCallback(registered_shot)",
+	"body": [
+		"Cheat.RegisterCallback(\"registered_shot\", function(shot) end)"
+	],
+	"description": "This callback will be executed whenever server registers ragebot shot More information on the passed parameter RegisteredShot can be found here"
+	
+},
+"NL.ragebot_shot":{
+	"prefix": "NL.Cheat.RegisterCallback(ragebot_shot)",
+	"body": [
+		"Cheat.RegisterCallback(\"ragebot_shot\", function(shot) end)"
+	],
+	"description": "This callback will be executed whenever ragebot shoot More information on the passed parameter RagebotShot can be found here"
+	
+},
+"NL.fire_bullet":{
+	"prefix": "NL.Cheat.RegisterCallback(fire_bullet)",
+	"body": [
+		"Cheat.RegisterCallback(\"fire_bullet\", function(shot) end)"
+	],
+	"description": "This callback will be executed when other players shooting"
+	
+},
+"NL.override_view":{
+	"prefix": "NL.Cheat.RegisterCallback(override_view)",
+	"body": [
+		"Cheat.RegisterCallback(\"override_view\", function(setup) end)"
+	],
+	"description": "This callback will be executed when game is calculating view"
+	
+},
+"NL.Http.Get()":{
+	"prefix": "NL.Http.Get()",
+	"body": [
+		"Http.Get(\"\")"
+	],
+	"description": ""
+	
+},
+"NL.Http.Post()":{
+	"prefix": "NL.Http.Post()",
+	"body": [
+		"Http.Post(\"\", \"somedata=somevalue\")"
+		
+	],
+	"description": "Content of provided URL"
+	
+},
+"NL.GetAsync":{
+	"prefix": "NL.Http.GetAsync",
+	"body": [
+		"Http.GetAsync(\"\")"
+	],
+	"description": ""
+	
+}, 
+"NL.PostAsync":{
+	"prefix": "NL.Http.PostAsync",
+	"body": [
+		"Http.PostAsync(\"\",\"somedata=somevalue\")"
+	],
+	"description": ""
+	
+}, 
+"NL.OverrideMinDamage":{
+	"prefix": "NL.RageBot.OverrideMinDamage",
+	"body": [
+		"RageBot.OverrideMinDamage(1, 10)"
+	],
+	"description": ""
+	
+}, 
+"NL.OverrideHitchance":{
+	"prefix": "NL.RageBot.OverrideHitchance",
+	"body": [
+		"RageBot.OverrideHitchance(1, 10)"
+	],
+	"description": ""
+	
+}, 
+"NL.ForceSafety":{
+	"prefix": "NL.RageBot.ForceSafety",
+	"body": [
+		"RageBot.ForceSafety(1)"
+	],
+	"description": ""
+	
+}, 
+"NL.SetTargetPriority":{
+	"prefix": "NL.RageBot.SetTargetPriority",
+	"body": [
+		"RageBot.SetTargetPriority(1, 100)"
+	],
+	"description": ""
+	
+}, 
+"NL.SetHitboxPriority":{
+	"prefix": "NL.RageBot.SetHitboxPriority",
+	"body": [
+		"RageBot.SetHitboxPriority(1, 0, 100)"
+	],
+	"description": ""
+	
+}, 
+"NL.ForceHitboxSafety":{
+	"prefix": "NL.RageBot.ForceHitboxSafety",
+	"body": [
+		"RageBot.ForceHitboxSafety(1, 0)"
+	],
+	"description": ""
+	
+}, 
+"NL.EnableHitbox":{
+	"prefix": "NL.RageBot.EnableHitbox",
+	"body": [
+		"RageBot.EnableHitbox(1, 0, false)"
+	],
+	"description": ""
+	
+},
+"NL.EnableMultipoints":{
+	"prefix": "NL.RageBot.EnableMultipoints",
+	"body": [
+		"RageBot.EnableMultipoints(1, 0, false)"
+	],
+	"description": ""
+	
+},
+"NL.IgnoreTarget":{
+	"prefix": "NL.RageBot.IgnoreTarget",
+	"body": [
+		"RageBot.IgnoreTarget(1)"
+	],
+	"description": ""
+	
+},
+"NL.Line":{
+	"prefix": "NL.Render.Line",
+	"body": [
+		"Render.Line(Vector2.new(0.0, 0.0), Vector2.new(5.0, 6.0), Color.new(1.0, 1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+},
+"NL.PolyLine":{
+	"prefix": "NL.Render.PolyLine",
+	"body": [
+		"Render.PolyLine(Color.new(1.0, 1.0, 1.0, 1.0), Vector2.new(100, 100), Vector2.new(100, 500), Vector2.new(500, 100))"
+	],
+	"description": ""
+	
+},
+"NL.PolyFilled":{
+	"prefix": "NL.Render.PolyFilled",
+	"body": [
+		"Render.PolyFilled(Color.new(1.0, 1.0, 1.0, 1.0), Vector2.new(100, 100), Vector2.new(100, 500), Vector2.new(500, 100))"
+	],
+	"description": ""
+	
+}, 
+"NL.Box":{
+	"prefix": "NL.Render.Box",
+	"body": [
+		"Render.Box(Vector2.new(0.0, 0.0), Vector2.new(4.0, 5.0), Color.new(1.0, 1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.BoxFilled":{
+	"prefix": "NL.Render.BoxFilled",
+	"body": [
+		"Render.BoxFilled(Vector2.new(0.0, 0.0), Vector2.new(4.0, 5.0), Color.new(1.0, 1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.GradientBoxFilled":{
+	"prefix": "NL.Render.GradientBoxFilled",
+	"body": [
+		"Render.GradientBoxFilled(Vector2.new(100, 100), Vector2.new(300, 300), Color.new(0, 0, 0, 1), Color.new(0, 0, 0, 1), Color.new(1, 1, 1, 1), Color.new(1, 1, 1, 1))"
+	],
+	"description": ""
+	
+}, 
+"NL.Circle":{
+	"prefix": "NL.Render.Circle",
+	"body": [
+		"Render.Circle(Vector2.new(0.0, 0.0), 2.0, 30, Color.new(1.0, 1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.CircleFilled":{
+	"prefix": "NL.Render.CircleFilled",
+	"body": [
+		"Render.CircleFilled(Vector2.new(0.0, 0.0), 2.0, 30, Color.new(1.0, 1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.Circle3D":{
+	"prefix": "NL.Render.Circle3D",
+	"body": [
+		"Render.Circle3D(Vector.new(0, 0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.Circle3DFilled":{
+	"prefix": "NL.Render.Circle3DFilled",
+	"body": [
+		"Render.Circle3DFilled(Vector.new(0, 0, 0), 58, 10.0, Color.new(1.0, 1.0, 1.0))"
+	],
+	"description": ""
+	
+},
+"NL.Text":{
+	"prefix": "NL.Render.Text",
+	"body": [
+		"Render.Text(\"Anarchist is cute\", Vector2.new(0.0, 0.0), Color.new(1.0, 1.0, 1.0, 1.0), 20)"
+	],
+	"description": ""
+	
+},
+"NL.WeaponIcon":{
+	"prefix": "NL.Render.WeaponIcon",
+	"body": [
+		"Render.WeaponIcon(7, Vector2.new(100, 100), Color.new(1.0, 1.0, 1.0), 16)"
+	],
+	"description": ""
+	
+},
+"NL.CalcTextSize":{
+	"prefix": "NL.Render.CalcTextSize",
+	"body": [
+		"Render.CalcTextSize(\"Hello world, it's me\", 16)"
+	],
+	"description": ""
+	
+},
+"NL.CalcWeaponIconSize":{
+	"prefix": "NL.Render.CalcWeaponIconSize",
+	"body": [
+		"Render.CalcWeaponIconSize(7, 16)"
+	],
+	"description": ""
+	
+},
+"NL.InitFont":{
+	"prefix": "NL.Render.InitFont",
+	"body": [
+		"Render.InitFont(\"Verdana\", 11, {'b', 'i', 'r'})"
+	],
+	"description": ""
+	
+},
+"NL.WorldToScreen":{
+	"prefix": "NL.Render.WorldToScreen",
+	"body": [
+		"Render.WorldToScreen(Vector.new(0, 0, 0))"
+	],
+	"description": ""
+	
+},
+"NL.LoadImage":{
+	"prefix": "NL.Render.LoadImage",
+	"body": [
+		"Render.LoadImage(bytes, image_size)"
+	],
+	"description": ""
+	
+},
+"NL.LoadImageFromFile":{
+	"prefix": "NL.Render.LoadImageFromFile",
+	"body": [
+		"Render.LoadImageFromFile(\"path\", size)"
+	],
+	"description": ""
+	
+},
+"NL.Blur":{
+	"prefix": "NL.Render.Blur",
+	"body": [
+		"Render.Blur(Vector2.new(0.0, 0.0), Vector2.new(4.0, 5.0))"
+	],
+	"description": ""
+	
+}, 
+"NL.GetMenuPos":{
+	"prefix": "NL.Render.GetMenuPos",
+	"body": [
+		"Render.GetMenuPos()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetMenuSize":{
+	"prefix": "NL.Render.GetMenuSize",
+	"body": [
+		"Render.GetMenuSize()"
+	],
+	"description": ""
+	
+}, 
+"NL.CreateInterface":{
+	"prefix": "NL.Utils.CreateInterface",
+	"body": [
+		"Utils.CreateInterface(\"client.dll\", \"GameMovement001\")"
+	],
+	"description": ""
+	
+}, 
+"NL.PatternScan":{
+	"prefix": "NL.Utils.PatternScan",
+	"body": [
+		"Utils.PatternScan(\"engine.dll\", \"53 56 57 8B DA 8B F9 FF 15\")"
+	],
+	"description": ""
+	
+}, 
+"NL.RandomFloat":{
+	"prefix": "NL.Utils.RandomFloat",
+	"body": [
+		"Utils.RandomFloat(0.0, 20.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.RandomInt":{
+	"prefix": "NL.Utils.RandomInt",
+	"body": [
+		"Utils.RandomInt(0, 20)"
+	],
+	"description": ""
+	
+}, 
+"NL.RandomSeed":{
+	"prefix": "NL.Utils.RandomSeed",
+	"body": [
+		"Utils.RandomSeed(cmd.random_seed)"
+	],
+	"description": ""
+	
+}, 
+"NL.UnixTime":{
+	"prefix": "NL.Utils.UnixTime",
+	"body": [
+		"Utils.UnixTime()"
+	],
+	"description": ""
+	
+}, 
+"NL.FindVar":{
+	"prefix": "NL.CVar.FindVar",
+	"body": [
+		"CVar.FindVar(\"sv_cheats\")"
+	],
+	"description": ""
+	
+}, 
+"NL.RegisterConVar":{
+	"prefix": "NL.CVar.RegisterConVar",
+	"body": [
+		"CVar.RegisterConVar('meme_var', '1', 8, 'Testing stuff')"
+	],
+	"description": ""
+	
+}, 
+"NL.RegisterConCommand":{
+	"prefix": "NL.CVar.RegisterConCommand",
+	"body": [
+		"CVar.RegisterConCommand('meme_cmd', 8, 'Testing stuff')"
+	],
+	"description": ""
+	
+}, 
+"NL.AddBoxOverlay":{
+	"prefix": "NL.DebugOverlay.AddBoxOverlay",
+	"body": [
+		"DebugOverlay.AddBoxOverlay(Vector.new(1, 2, 3), Vector.new(4, 5, 6), Vector.new(6, 7, 8), QAngle.new(9, 10, 11), 255, 255, 255, 255, 1.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.AddSphereOverlay":{
+	"prefix": "NL.DebugOverlay.AddSphereOverlay",
+	"body": [
+		"DebugOverlay.AddSphereOverlay(Vector.new(1, 2, 3), 1.0, 10, 10, 255, 255, 255, 255, 1.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.AddTriangleOverlay":{
+	"prefix": "NL.DebugOverlay.AddTriangleOverlay",
+	"body": [
+		"DebugOverlay.AddTriangleOverlay(Vector.new(1, 2, 3), Vector.new(4, 5, 6), Vector.new(7, 8, 9), 255, 255, 255, 255, 1.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.AddLineOverlay":{
+	"prefix": "NL.DebugOverlay.AddLineOverlay",
+	"body": [
+		"DebugOverlay.AddLineOverlay(Vector.new(1, 2, 3), Vector.new(4, 5, 6), 255, 255, 255, 1.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.AddCapsuleOverlay":{
+	"prefix": "NL.DebugOverlay.AddCapsuleOverlay",
+	"body": [
+		"DebugOverlay.AddCapsuleOverlay(Vector.new(1, 2, 3), Vector.new(4, 5, 6), 15.0, 255, 255, 255, 255, 1.0)"
+	],
+	"description": ""
+	
+}, 
+"NL.ExecuteClientCmd":{
+	"prefix": "NL.EngineClient.ExecuteClientCmd",
+	"body": [
+		"EngineClient.ExecuteClientCmd(\"say neverlose.cc\")"
+	],
+	"description": ""
+	
+}, 
+"NL.GetLevelName":{
+	"prefix": "NL.EngineClient.GetLevelName",
+	"body": [
+		"EngineClient.GetLevelName()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetLevelNameShort":{
+	"prefix": "NL.EngineClient.GetLevelNameShort",
+	"body": [
+		"EngineClient.GetLevelNameShort()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetMapGroupName":{
+	"prefix": "NL.EngineClient.EngineClient.GetMapGroupName()",
+	"body": [
+		""
+	],
+	"description": ""
+	
+}, 
+"NL.GetLocalPlayer":{
+	"prefix": "NL.EngineClient.GetLocalPlayer",
+	"body": [
+		"EngineClient.GetLocalPlayer()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetMaxClients":{
+	"prefix": "NL.EngineClient.GetMaxClients",
+	"body": [
+		"EngineClient.GetMaxClients()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetNetChannelInfo":{
+	"prefix": "NL.EngineClient.GetNetChannelInfo",
+	"body": [
+		"EngineClient.GetNetChannelInfo()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetScreenSize":{
+	"prefix": "NL.EngineClient.GetScreenSize",
+	"body": [
+		"EngineClient.GetScreenSize()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetViewAngles":{
+	"prefix": "NL.EngineClient.GetViewAngles",
+	"body": [
+		"EngineClient.GetViewAngles()"
+	],
+	"description": ""
+	
+}, 
+"NL.IsConnected":{
+	"prefix": "NL.EngineClient.IsConnected",
+	"body": [
+		"EngineClient.IsConnected()"
+	],
+	"description": ""
+	
+}, 
+"NL.IsInGame":{
+	"prefix": "NL.EngineClient.IsInGame",
+	"body": [
+		"EngineClient.IsInGame()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetGameDirectory":{
+	"prefix": "NL.EngineClient.GetGameDirectory",
+	"body": [
+		"EngineClient.GetGameDirectory()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetLastTimestamp":{
+	"prefix": "NL.EngineClient.GetLastTimestamp",
+	"body": [
+		"EngineClient.GetLastTimestamp()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetProductVersionString":{
+	"prefix": "NL.EngineClient.GetProductVersionString",
+	"body": [
+		"EngineClient.GetProductVersionString()"
+	],
+	"description": ""
+	
+}, 
+"NL.SetViewAngles":{
+	"prefix": "NL.EngineClient.SetViewAngles",
+	"body": [
+		"EngineClient.SetViewAngles(QAngle.new(20, 20, 0))"
+	],
+	"description": ""
+	
+}, 
+"NL.TraceRay":{
+	"prefix": "NL.EngineClient.TraceRay",
+	"body": [
+		"EngineTrace.TraceRay(Vector.new(0, 0, 0), Vector.new(100, 100, 100), lp_ent, 0xFFFFFFFF)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetClientEntity":{
+	"prefix": "NL.EngineClient.GetClientEntity",
+	"body": [
+		"EntityList.GetClientEntity(EngineClient.GetLocalPlayer())"
+	],
+	"description": ""
+	
+}, 
+"NL.NumberOfEntities":{
+	"prefix": "NL.EngineClient.NumberOfEntities",
+	"body": [
+		"EntityList.NumberOfEntities(false)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetHighestEntityIndex":{
+	"prefix": "NL.EngineClient.GetHighestEntityIndex",
+	"body": [
+		"EntityList.GetHighestEntityIndex()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetClientEntityFromHandle":{
+	"prefix": "NL.EngineClient.GetClientEntityFromHandle",
+	"body": [
+		"EntityList.GetClientEntityFromHandle(weapon_handle)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetPlayerResource":{
+	"prefix": "NL.EngineClient.GetPlayerResource",
+	"body": [
+		"EntityList.GetPlayerResource()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetGameRules":{
+	"prefix": "NL.EngineClient.GetGameRules",
+	"body": [
+		"EntityList.GetGameRules()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetEntitiesByClassID":{
+	"prefix": "NL.EngineClient.GetEntitiesByClassID",
+	"body": [
+		"EntityList.GetEntitiesByClassID(40)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetEntitiesByName":{
+	"prefix": "NL.EngineClient.GetEntitiesByName",
+	"body": [
+		"EntityList.GetEntitiesByName(\"CCSPlayer\")"
+	],
+	"description": ""
+	
+}, 
+"NL.GetWeapon":{
+	"prefix": "NL.EngineClient.GetWeapon",
+	"body": [
+		"EntityList.GetWeapon(100)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetPlayer":{
+	"prefix": "NL.EngineClient.GetPlayer",
+	"body": [
+		"EntityList.GetPlayer(1)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetPlayerFromHandle":{
+	"prefix": "NL.EntityList.GetPlayerFromHandle",
+	"body": [
+		"EntityList.GetPlayerFromHandle(handle)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetWeaponFromHandle":{
+	"prefix": "NL.EntityList.GetWeaponFromHandle",
+	"body": [
+		"EntityList.GetWeaponFromHandle(active_weapon)"
+	],
+	"description": ""
+	
+}, 
+"NL.GetPlayers":{
+	"prefix": "NL.EntityList.GetPlayers",
+	"body": [
+		"EntityList.GetPlayers()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetPlayerForUserID":{
+	"prefix": "NL.EntityList.GetPlayerForUserID",
+	"body": [
+		"EntityList.GetPlayerForUserID()"
+	],
+	"description": ""
+	
+}, 
+"NL.CreateMaterial":{
+	"prefix": "NL.MatSystem.OverrideMaterial",
+	"body": [
+		"MatSystem.OverrideMaterial()"
+	],
+	"description": ""
+	
+}, 
+"NL.FindMaterial":{
+	"prefix": "NL.MatSystem.FindMaterial",
+	"body": [
+		"MatSystem.FindMaterial()"
+	],
+	"description": ""
+	
+}, 
+"NL.FirstMaterial":{
+	"prefix": "NL.MatSystem.FirstMaterial",
+	"body": [
+		"MatSystem.FirstMaterial()"
+	],
+	"description": ""
+	
+}, 
+"NL.NextMaterial":{
+	"prefix": "NL.MatSystem.NextMaterial",
+	"body": [
+		"MatSystem.NextMaterial()"
+	],
+	"description": ""
+	
+}, 
+"NL.GetMaterial":{
+	"prefix": "NL.MatSystem.GetMaterial",
+	"body": [
+		"MatSystem.GetMaterial()"
+	],
+	"description": ""
+	
+}, 
+"NL.OverrideMaterial":{
+	"prefix": "NL.MatSystem.OverrideMaterial",
+	"body": [
+		"MatSystem.OverrideMaterial(]\"Enemies\", mat_ptr)"
+	],
+	"description": ""
+	
+}, 
+"NL.LoadString":{
+	"prefix": "NL.Panorama.LoadString",
+	"body": [
+		"Panorama.LoadString([[return MyPersonaAPI.GetXuid()]])"
+	],
+	"description": ""
+	
+}, 
+"NL.Open":{
+	"prefix": "NL.Panorama.Open",
+	"body": [
+		"Panorama.Open()"
+	],
+	"description": ""
+	
+}, 
+"NL.MyPersonaAPI.GetXuid()":{
+	"prefix": "NL.MyPersonaAPI.GetXuid()",
+	"body": [
+		"MyPersonaAPI.GetXuid()"
+	],
+	"description": ""
+	
+}, 
+}
+/*
+ "NL.":{
+	"prefix": "NL.",
+	"body": [
+		""
+	],
+	"description": ""
+	
+}, 
+*/
