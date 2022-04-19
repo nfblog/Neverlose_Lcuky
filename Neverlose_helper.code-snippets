@@ -6,123 +6,123 @@
 {
 
 "Menu.Switch":{
-	"prefix": "NL.Switch",
+	"prefix": "NL.Menu.Switch",
 	"body": [
 		"Menu.Switch(\"${1:Name}\",\"${2:Name}\",false,\"${3:Tooltip}\");"
 	],
 	"description": ""
 },
 "Menu.SwitchColor":{
-	"prefix": "NL.SwitchColor",
+	"prefix": "NL.Menu.SwitchColor",
 	"body": [
 		"Menu.SwitchColor(\"${1:Name}\",\"${2:Name}\",false,Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
 	],
 },
 "Menu.SliderInt":{
-	"prefix": "NL.SliderInt",
+	"prefix": "NL.Menu.SliderInt",
 	"body": [
 		"Menu.SliderInt(\"${1:Name}\",\"${2:Name}\",50, 0, 100,\"${3:Tooltip}\");"
 	],
 },
 "Menu.SliderIntColor":{
-	"prefix": "NL.SliderIntColor",
+	"prefix": "NL.Menu.SliderIntColor",
 	"body": [
-		"Menu.SliderIntColor(\"${1:Name}\",\"${2:Name}\",50, 0, 100, Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
+		"Menu.Menu.SliderIntColor(\"${1:Name}\",\"${2:Name}\",50, 0, 100, Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
 	],
 	"description": ""
 },
 "Menu.SliderFloat":{
-	"prefix": "NL.SliderFloat",
+	"prefix": "NL.Menu.SliderFloat",
 	"body": [
 		"Menu.SliderFloat(\"${1:Name}\",\"${2:Name}\",50.0, 0.0, 100.0,\"${3:Tooltip}\");"
 	],
 },
 "Menu.SliderFloatColor":{
-	"prefix": "NL.SliderFloatColor",
+	"prefix": "NL.Menu.SliderFloatColor",
 	"body": [
 		"Menu.SliderFloatColor(\"${1:Name}\",\"${2:Name}\",50.0, 0.0, 100.0, Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
 	],
 },
 "Menu.Combo":{
-	"prefix": "NL.Combo",
+	"prefix": "NL.Menu.Combo",
 	"body": [
 		"Menu.Combo(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"},0,\"${6:Tooltip}\");"
 	],
 },
 "Menu.ComboColor":{
-	"prefix": "NL.ComboColor",
+	"prefix": "NL.Menu.ComboColor",
 	"body": [
 		"Menu.Switch(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"},0,Color.new(1.0, 1.0, 1.0, 1.0),\"${6:Tooltip}\");"
 	],
 },
 "Menu.MultiCombo":{
-	"prefix": "NL.MultiCombo",
+	"prefix": "NL.Menu.MultiCombo",
 	"body": [
 		"Menu.MultiCombo(\"${1:Name}\",\"${2:Name}\",{\"${3:NameElement 1}\",\"${4:NameElement 2}\", \"${5:NameElement 3}\"}, 0,\"${6:Tooltip}\");"
 	],
 },
 "Menu.TextBox":{
-	"prefix": "NL.TextBox",
+	"prefix": "NL.Menu.TextBox",
 	"body": [
 		"Menu.TextBox(\"${1:Name}\",\"${2:Name}\",64, \"Value\",\"${3:Tooltip}\");"
 	],
 },
 "Menu.Text":{
-	"prefix": "NL.Text",
+	"prefix": "NL.Menu.Text",
 	"body": [
 		"Menu.Text(\"${1:Name}\",\"${2:Name}\");"
 	],
 },
 "Menu.Button":{
-	"prefix": "NL.Button",
+	"prefix": "NL.Menu.Button",
 	"body": [
 		"Menu.Button(\"${1:Name}\",\"${2:Name}\",\"${3:Tooltip}\");"
 	],
 },
 "Menu.ColorEdit":{
-	"prefix": "NL.ColorEdit",
+	"prefix": "NL.Menu.ColorEdit",
 	"body": [
 		"Menu.ColorEdit(\"${1:Name}\",\"${2:Name}\",Color.new(1.0, 1.0, 1.0, 1.0),\"${3:Tooltip}\");"
 	],
 },
 "Menu.Hotkey":{
-	"prefix": "NL.Hotkey",
+	"prefix": "NL.Menu.Hotkey",
 	"body": [
 		"Menu.Hotkey(\"${1:Name}\",\"${2:Name}\",0x45,\"${3:Tooltip}\");"
 	],
 },
 "Menu.GetRageHitboxState":{
-	"prefix": "NL.GetRageHitboxState",
+	"prefix": "NL.Menu.GetRageHitboxState",
 	"body": [
 		"Menu.GetRageHitboxState(${1:hitbox_int});"
 	],
 },
 "Menu.SetRageHitboxState":{
-	"prefix": "NL.SetRageHitboxState",
+	"prefix": "NL.Menu.SetRageHitboxState",
 	"body": [
 		"Menu.SetRageHitboxState(${1:hitbox_int},${2:bool});"
 	],
 },
 "Menu.SetRageMultipointState":{
-	"prefix": "NL.SetRageMultipointState",
+	"prefix": "NL.Menu.SetRageMultipointState",
 	"body": [
 		"Menu.SetRageMultipointState(${1:hitbox_int},${2:bool});"
 	],
 },
 "Menu.SetLegitHitboxState":{
-	"prefix": "NL.SetLegitHitboxState",
+	"prefix": "NL.Menu.SetLegitHitboxState",
 	"body": [
 		"Menu.SetLegitHitboxState(${1:hitbox_int},${2:bool});"
 	],
 },
 "Menu.GetRageMultipointState":{
-	"prefix": "NL.GetRageMultipointState",
+	"prefix": "NL.Menu.GetRageMultipointState",
 	"body": [
 		"Menu.GetRageMultipointState(${1:hitbox_int});"
 	],
 },
 "Menu.DestroyItem":{
-	"prefix": "NL.DestroyItem",
+	"prefix": "NL.Menu.DestroyItem",
 	"body": [
 		"Menu.DestroyItem(${1:name});"
 	],
