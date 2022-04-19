@@ -292,7 +292,7 @@
 "NL.OverrideDesyncOnShot":{
 	"prefix": "NL.AntiAim.OverrideDesyncOnShot()",
 	"body": [
-		"AntiAim.OverrideDesyncOnShot(4)"
+		"AntiAim.OverrideDesyncOnShot(${1:4})"
 	],
 	"description": "0 - disable override, 1 - left, 2 - right, 3 - overlap on shot with fake, 4 - opposite to fake"
 	
@@ -300,7 +300,7 @@
 "NL.GetCurrentRealRotation":{
 	"prefix": "NL.AntiAim.GetCurrentRealRotation()",
 	"body": [
-		"AntiAim.GetCurrentRealRotation(4)"
+		"AntiAim.GetCurrentRealRotation()"
 	],
 	"description": "Real rotation(float)"
 	
@@ -308,7 +308,7 @@
 "NL.Exploits.AllowCharge(false)":{
 	"prefix": "NL.Exploits.AllowCharge(false)",
 	"body": [
-		"Exploits.AllowCharge(false)"
+		"Exploits.AllowCharge(${1:false})"
 	],
 	"description": "true - block charge, false - allow charge"
 	
@@ -364,7 +364,7 @@
 "NL.FakeLag.SetState()":{
 	"prefix": "NL.FakeLag.SetState()",
 	"body": [
-		"FakeLag.SetState(false)"
+		"FakeLag.SetState(${1:false})"
 	],
 	"description": "Set packet state False - choke packet True - send packet"
 	
@@ -469,7 +469,7 @@
 "NL.Http.Get()":{
 	"prefix": "NL.Http.Get()",
 	"body": [
-		"Http.Get(\"\")"
+		"Http.Get(\"${1:url}\")"
 	],
 	"description": ""
 	
@@ -477,7 +477,7 @@
 "NL.Http.Post()":{
 	"prefix": "NL.Http.Post()",
 	"body": [
-		"Http.Post(\"\", \"somedata=somevalue\")"
+		"Http.Post(\"${1:url}\", \"${2:somedata=somevalue}\")"
 		
 	],
 	"description": "Content of provided URL"
@@ -486,7 +486,7 @@
 "NL.GetAsync":{
 	"prefix": "NL.Http.GetAsync",
 	"body": [
-		"Http.GetAsync(\"\")"
+		"Http.GetAsync(\"${1:url}\")"
 	],
 	"description": ""
 	
@@ -494,7 +494,7 @@
 "NL.PostAsync":{
 	"prefix": "NL.Http.PostAsync",
 	"body": [
-		"Http.PostAsync(\"\",\"somedata=somevalue\")"
+		"Http.PostAsync(\"${1:url}\",\"${2:somedata=somevalue}\")"
 	],
 	"description": ""
 	
@@ -502,7 +502,7 @@
 "NL.OverrideMinDamage":{
 	"prefix": "NL.RageBot.OverrideMinDamage",
 	"body": [
-		"RageBot.OverrideMinDamage(1, 10)"
+		"RageBot.OverrideMinDamage(${1:1}, ${2:10})"
 	],
 	"description": ""
 	
@@ -510,7 +510,7 @@
 "NL.OverrideHitchance":{
 	"prefix": "NL.RageBot.OverrideHitchance",
 	"body": [
-		"RageBot.OverrideHitchance(1, 10)"
+		"RageBot.OverrideHitchance(${1:1}, ${2:10})"
 	],
 	"description": ""
 	
@@ -518,7 +518,7 @@
 "NL.ForceSafety":{
 	"prefix": "NL.RageBot.ForceSafety",
 	"body": [
-		"RageBot.ForceSafety(1)"
+		"RageBot.ForceSafety(${1:1})"
 	],
 	"description": ""
 	
@@ -526,7 +526,7 @@
 "NL.SetTargetPriority":{
 	"prefix": "NL.RageBot.SetTargetPriority",
 	"body": [
-		"RageBot.SetTargetPriority(1, 100)"
+		"RageBot.SetTargetPriority(${1:1}, ${2:100})"
 	],
 	"description": ""
 	
@@ -534,7 +534,7 @@
 "NL.SetHitboxPriority":{
 	"prefix": "NL.RageBot.SetHitboxPriority",
 	"body": [
-		"RageBot.SetHitboxPriority(1, 0, 100)"
+		"RageBot.SetHitboxPriority(${1:1}, ${2:0}, ${3:100})"
 	],
 	"description": ""
 	
@@ -542,7 +542,7 @@
 "NL.ForceHitboxSafety":{
 	"prefix": "NL.RageBot.ForceHitboxSafety",
 	"body": [
-		"RageBot.ForceHitboxSafety(1, 0)"
+		"RageBot.ForceHitboxSafety(${1:1}, 0)"
 	],
 	"description": ""
 	
@@ -550,7 +550,7 @@
 "NL.EnableHitbox":{
 	"prefix": "NL.RageBot.EnableHitbox",
 	"body": [
-		"RageBot.EnableHitbox(1, 0, false)"
+		"RageBot.EnableHitbox(${1:1}, 0, false)"
 	],
 	"description": ""
 	
@@ -558,7 +558,7 @@
 "NL.EnableMultipoints":{
 	"prefix": "NL.RageBot.EnableMultipoints",
 	"body": [
-		"RageBot.EnableMultipoints(1, 0, false)"
+		"RageBot.EnableMultipoints(${1:1}, 0, false)"
 	],
 	"description": ""
 	
@@ -566,7 +566,7 @@
 "NL.IgnoreTarget":{
 	"prefix": "NL.RageBot.IgnoreTarget",
 	"body": [
-		"RageBot.IgnoreTarget(1)"
+		"RageBot.IgnoreTarget(${1:1})"
 	],
 	"description": ""
 	
@@ -574,7 +574,7 @@
 "NL.Line":{
 	"prefix": "NL.Render.Line",
 	"body": [
-		"Render.Line(Vector2.new(0.0, 0.0), Vector2.new(5.0, 6.0), Color.new(1.0, 1.0, 1.0, 1.0))"
+		"Render.Line(${1:Vector2.new(0.0, 0.0)}, ${2:Vector2.new(5.0, 6.0)}, ${3:Color.new(1.0, 1.0, 1.0, 1.0)})"
 	],
 	"description": ""
 	
@@ -686,7 +686,7 @@
 "NL.InitFont":{
 	"prefix": "NL.Render.InitFont",
 	"body": [
-		"Render.InitFont(\"Verdana\", 11, {'b', 'i', 'r'})"
+		"Render.InitFont(\"${1:Verdana}\", 11, {'b', 'i', 'r'})"
 	],
 	"description": ""
 	
@@ -694,7 +694,7 @@
 "NL.WorldToScreen":{
 	"prefix": "NL.Render.WorldToScreen",
 	"body": [
-		"Render.WorldToScreen(Vector.new(0, 0, 0))"
+		"Render.WorldToScreen(${1:Vector.new(0, 0, 0)})"
 	],
 	"description": ""
 	
@@ -702,7 +702,7 @@
 "NL.LoadImage":{
 	"prefix": "NL.Render.LoadImage",
 	"body": [
-		"Render.LoadImage(bytes, image_size)"
+		"Render.LoadImage(${1:bytes}, ${2:image_size})"
 	],
 	"description": ""
 	
@@ -766,7 +766,7 @@
 "NL.RandomInt":{
 	"prefix": "NL.Utils.RandomInt",
 	"body": [
-		"Utils.RandomInt(0, 20)"
+		"Utils.RandomInt(${1:0}, ${2:20})"
 	],
 	"description": ""
 	
@@ -878,7 +878,7 @@
 "NL.GetMapGroupName":{
 	"prefix": "NL.EngineClient.EngineClient.GetMapGroupName()",
 	"body": [
-		""
+		"EngineClient.EngineClient.GetMapGroupName()"
 	],
 	"description": ""
 	
@@ -1062,7 +1062,7 @@
 "NL.GetPlayerFromHandle":{
 	"prefix": "NL.EntityList.GetPlayerFromHandle",
 	"body": [
-		"EntityList.GetPlayerFromHandle(handle)"
+		"EntityList.GetPlayerFromHandle(${1:handle})"
 	],
 	"description": ""
 	
@@ -1070,7 +1070,7 @@
 "NL.GetWeaponFromHandle":{
 	"prefix": "NL.EntityList.GetWeaponFromHandle",
 	"body": [
-		"EntityList.GetWeaponFromHandle(active_weapon)"
+		"EntityList.GetWeaponFromHandle(${1:active_weapon})"
 	],
 	"description": ""
 	
